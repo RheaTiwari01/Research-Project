@@ -1,0 +1,6 @@
+net=alexnet;
+image_folder1="C:\Users\RHEA TIWARI\Downloads\all frames\HCM frames";
+image_folder2="C:\Users\RHEA TIWARI\Downloads\all frames\Normal frames";
+image_files = imageDatastore({image_folder1.,image_folder2}, "IncludeSubfolders", true, "LabelSource", "foldernames")
+
+
